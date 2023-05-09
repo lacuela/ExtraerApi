@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #loading {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .spinner-border {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: text-bottom;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-border .75s linear infinite;
+  }
+  
+  @-webkit-keyframes spinner-border {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spinner-border {
+    to { transform: rotate(360deg); }
+  }
+  
+  #bromas {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .broma {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+  
+  .lang-btn {
+    margin-left: 10px;
+  }
+  
+  .lang-btn:first-child {
+    margin-left: 0;
+  }
+  
+  .lang-btn.active {
+    background-color: #007bff;
+  }
+  
+  .lang-btn.active:hover {
+    background-color: #007bff;
+  }
+  
+  .lang-btn.active:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+  
+  
